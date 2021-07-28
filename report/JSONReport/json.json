@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-27T10:43:16.000Z",
+        "line": 3,
+        "name": "To Validate the Functionality of Facebook Registration",
+        "description": "",
+        "id": "to-validate-the-facebook-registration;to-validate-the-functionality-of-facebook-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.base.BaseClass.lunchUrl(BaseClass.java:36)\r\n\tat org.step.StepDifintion.user_has_to_Click_Creat_New_Account(StepDifintion.java:16)\r\n\tat ✽.User has to Click Creat New Account(file:src/test/resources/feature/facebookregistration.feature:4)\r\n",
+              "duration": 276933700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User has to Click Creat New Account",
+            "match": {
+              "location": "StepDifintion.user_has_to_Click_Creat_New_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4103500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user has to Enter Firstname and Lastname",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Firstname_and_Lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12574400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user has to Enter Email address",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1340200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user has to Enter Date of Birth",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Date_of_Birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9640400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user has to click Gender",
+            "match": {
+              "location": "StepDifintion.user_has_to_click_Gender()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Facebook Registration",
+    "description": "",
+    "id": "to-validate-the-facebook-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/facebookregistration.feature",
+    "tags": []
+  }
+]

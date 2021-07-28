@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-28T09:16:01.465Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11947171400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.lunch()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To Validate the Functionality of Facebook Registration",
+        "description": "",
+        "id": "to-validate-the-facebook-registration;to-validate-the-functionality-of-facebook-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 74700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 306434900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to Click Creat New Account",
+            "match": {
+              "location": "StepDifintion.user_has_to_Click_Creat_New_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8641003800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to Enter Firstname and Lastname",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Firstname_and_Lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 268064500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to Enter Email address",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Apr\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VCH8ME7\u0027, ip: \u0027192.168.0.108\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)\r\n\tat org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)\r\n\tat org.base.BaseClass.dropdownvalue(BaseClass.java:61)\r\n\tat org.step.StepDifintion.user_has_to_Enter_Date_of_Birth(StepDifintion.java:39)\r\n\tat ✽.user has to Enter Date of Birth(file:src/test/resources/feature/facebookregistration.feature:7)\r\n",
+              "duration": 840602400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user has to Enter Date of Birth",
+            "match": {
+              "location": "StepDifintion.user_has_to_Enter_Date_of_Birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1783900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user has to click Gender",
+            "match": {
+              "location": "StepDifintion.user_has_to_click_Gender()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Facebook Registration",
+    "description": "",
+    "id": "to-validate-the-facebook-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/facebookregistration.feature",
+    "tags": []
+  }
+]
